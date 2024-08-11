@@ -1,0 +1,29 @@
+
+.home {
+    padding: 0px;
+  }
+  
+  .banner img {
+    width: 100%;
+    height: fit-content;
+  }
+  
+  .home-content {
+    text-align: center;
+    padding: 50;
+  }
+ 
+  .home-content {
+    text-align: center;
+  }
+  
+  .featured-link {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  
+  .featured-link:hover{
+    transform: translateY(-5px);
+  }

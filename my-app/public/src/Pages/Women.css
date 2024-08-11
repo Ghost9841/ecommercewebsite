@@ -1,0 +1,39 @@
+/* You can use the same CSS as Men.css or customize it as needed */
+.filter-bar {
+    display: flex;
+    overflow-x: auto;
+    padding: 10px 0;
+    gap: 15px;
+    white-space: nowrap;
+  }
+  
+  .filter-item {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid purple;
+    border-radius: 50px;
+    background-color: #fff;
+    color: purple;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .filter-item:hover {
+    background-color: purple;
+    color: #fff;
+  }
+  
+  .filter-bar::-webkit-scrollbar {
+    height: 8px;
+  }
+  
+  .filter-bar::-webkit-scrollbar-thumb {
+    background-color: purple;
+    border-radius: 10px;
+  }
+  
+  .filter-bar::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
