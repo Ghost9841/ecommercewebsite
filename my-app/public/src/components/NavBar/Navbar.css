@@ -1,1 +1,107 @@
+.navbar{
+display: flex;
+justify-content: space-around;
+padding: 10px;
+box-shadow: 0 1px 3px -2px black ;
+margin-bottom: 3;
+}
 
+.nav-logo{
+    display: flex;
+    align-items: center;
+    width: 200px;
+    gap: 5px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+.nav-logo img{
+    width: 140px;
+}
+.nav-logo :hover{
+    transform: translateY(-5px);
+}
+.nav-logo a{
+    font-size: 25px;
+    font-weight: 600;
+    cursor: pointer;
+   color: red;
+   transition: transform 0.2s;  
+}
+.nav-logo p:hover{
+    transform: translateY(-5px);
+}
+.nav-menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 70px;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+}
+.nav-menu li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+.nav-menu li:hover {
+    transform: translateY(-5px);
+  }
+.nav-menu hr{
+    border: none;
+    width: 80%;
+    height: 3px;
+    border-radius: 100px;
+    background: rgb(0, 0, 0);
+}
+.nav-login-cart{
+display: flex;
+align-items: center;
+gap: 45px;
+
+}
+.nav-login-cart img{
+    transition: transform 0.2s;
+}
+.nav-login-cart img:hover{
+    transform: translateY(-5px);
+}
+.nav-login-cart button{
+    width: 157px;
+    height: 58px;
+    outline: none;
+    border: 1px solid purple;
+    border-radius: 75px;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+.nav-login-cart button:hover{
+    transform: translateY(-5px);
+}
+.nav-login-cart button:active{
+    background: purple;
+    text-decoration: white;
+   color: white;
+}
+
+.nav-cart-count{
+    height: 22px;
+    width: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -35px;
+    margin-left: -55px;
+    border-radius: 11px;
+    font-size: 14px;
+    background: purple;
+    color: white;
+}
