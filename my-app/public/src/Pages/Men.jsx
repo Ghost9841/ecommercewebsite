@@ -1,5 +1,5 @@
 import React from 'react';
-import '../Pages/Men.css'
+
 import { Link } from 'react-router-dom';
 
 const Men = () => {

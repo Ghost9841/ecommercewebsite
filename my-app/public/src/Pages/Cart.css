@@ -1,0 +1,36 @@
+.card {
+    width: 100%;
+    text-align: center;
+    border: 1px solid purple;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
+  
+  .card img {
+    width: 100%;
+    height: 10px;
+    object-fit: cover;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card-title {
+    font-size: 18px;
+    margin-top: 10px;
+    color: purple;
+  }
+  
+  .card-text {
+    color: #ce0000;
+  }
+  
+.cointainer{
+    transition: transform 0.2s;
+}
+.cointainer:hover{
+    transform: translateY(-5px);
+}
